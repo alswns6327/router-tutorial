@@ -18,6 +18,9 @@ function useQuery () {
 }
 
 const Profile = ({location}) => {
+
+    
+
     const {username} = useParams();
 
     const profile = data[username];
